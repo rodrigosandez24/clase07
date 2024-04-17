@@ -1,0 +1,262 @@
+/* :root{} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+#body {
+    background-color: aliceblue;
+    padding: 30px;
+
+
+    /* text-align: center; */
+}
+
+.header {
+    background-color: rgb(48, 47, 45);
+    color: azure;
+    padding: 20px;
+    width: 100%;
+
+}
+
+main {
+    padding: 30px;
+    /* text-align: center; */
+
+}
+
+nav {
+    display: flex;
+    /* flex-direction:row; */
+    justify-content: start;
+    align-items: center;
+    /* column-gap: 10px; */
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    column-gap: 20px;
+}
+
+footer {
+    background-color: rgb(48, 47, 45);
+    text-align: center;
+    color: azure;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    height: 50px;
+    margin-top: 0;
+
+
+    /* margin: 10px; */
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+
+
+}
+
+label,
+input {
+    font-size: 0.8 vw;
+
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=texarea],
+input[type=number],
+input[type=url],
+input[type=tel] {
+    width: 70%;
+    align-tracks: left;
+    padding: 0.2vw;
+    margin: 1vw;
+    /* display: inline-block; */
+    border: 1vw;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+
+input[type=date] {
+    width: 10%;
+}
+
+input[type=submit],
+input[type=reset] {
+    width: 100%;
+    background-color: rgb(3, 124, 39);
+    padding: 1px 1px;
+    margin: 8px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 150%;
+    color: white;
+    cursor: pointer;
+    box-shadow: 4px 4px gray;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+b {
+    margin-bottom: 20px;
+
+}
+
+textarea {
+    width: 60%;
+    height: 80px;
+}
+
+
+
+
+.menu-nav {
+    background-color: rgb(131, 128, 126);
+    color: azure;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid;
+    box-shadow: 4px 4px 2px rgb(241, 241, 241);
+    font-size: 1vw;
+    left: 0;
+}
+
+.titulo {
+    color: azure;
+    text-align: center;
+    text-shadow: 2px 2px 1px #999999;
+    margin: 15px;
+}
+
+.form-reg {
+    background-color: #c7c2c2;
+    text-align: justify;
+    margin: 3% 15%;
+    padding: 2%;
+    border-radius: 5px;
+
+}
+
+.esp {
+    margin-bottom: 400px;
+}
+
+.red-soc {
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.red-soc a {
+    color: black;
+    margin: 0px 6px;
+    font-size: 2vw;
+}
+
+.red-soc a:hover {
+    color: #999999;
+}
+
+.nuestros-clientes {
+    /* margin: auto; */
+    width: 150px;
+    height: 110px;
+
+
+    /* margin: 1vw;
+    padding: 1vw;
+    text-align: center;
+    width: 20vw; */
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+/* .clientes-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 600px;
+    gap: 10px;
+} */
+
+.clientes-grid {
+    background-color: #456957;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-template-rows: repeat(2, 150px);
+    gap: 40px;
+    place-content: center;
+
+    /* justify-items: center;
+    align-items: center; */
+
+    place-items: center;
+}
+
+#cliente05{
+    justify-self:end;
+    align-self:end;
+    background-color: aqua;
+    width: 100%;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.sopa {
+
+     background-color: red;
+    transform:scale(2);
+    /* transition: all 4.5s ease-in 1s ; */
+}
+
+
+
+
+.maps {
+    margin: 1vw;
+}
+
+.link-location {
+    margin: 2vw;
+}
+
+
+
+
+
+#letra-receta {
+
+    background-color: rgb(131, 128, 126);
+    color: azure;
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px gray;
+}
+
+#sopa {
+    padding: 10px;
+    margin: 0 auto;
+}
+

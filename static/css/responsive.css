@@ -1,0 +1,12 @@
+@media screen and (max-width:767px) {
+    h3{
+      color: brown;
+      font-size: 5vw;
+    }  
+  }
+  @media screen and (min-width:760px) and (max-width:1023px) {
+      h3{
+        color: blue;
+          font-size: 8vw;
+      }
+  }
